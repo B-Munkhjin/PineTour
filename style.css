@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  height: 100px;
+  width: 1440px;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 118px;
+  padding-right: 118px;
+}
+.mid {
+  display: flex;
+  gap: 24px;
+  color: white;
+  height: 22px;
+  width: 392px;
+}
+.lan {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  color: black;
+  padding: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+}
+.bg-img {
+  background-image: url(./images/bg1.png);
+  width: 1440px;
+  height: 773px;
+  background-size: cover;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+  vertical-align: bottom;
+  flex-direction: column;
+  width: 618px;
+  height: 394px;
+  position: absolute;
+  top: 169px;
+  left: 411px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  color: #e8edf2b8;
+  width: 618px;
+  height: 80px;
+  font-size: 80px;
+  line-height: 100%;
+  font-family: "Bebas Neue";
+}
+.second {
+  color: #fdfdfefa;
+  border: 2px;
+  line-height: 100%;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 190px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.third {
+  display: flex;
+  justify-content: center;
+  width: 144px;
+  height: 64px;
+  font-weight: 900;
+  color: #ffffffcc;
+  font-size: 64px;
+  line-height: 100%;
+  font-family: "Hanuman";
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+
+.hanuman {
+  font-family: "Hanuman", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.locc {
+  display: flex;
+  width: 1440px;
+  height: 500px;
+  justify-content: space-between;
+  padding-top: 65px;
+  padding-right: 120px;
+  padding-bottom: 65px;
+  padding-left: 120px;
+  opacity: 1;
+  text-align: center;
+  align-items: center;
+  background-image: url(./images/bgcolor.png);
+}
+
+.general {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  color: white;
+  box-shadow: -8px -8px #1f72aa75, 8px 8px #29728b40;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loc-bg1 {
+  background-image: url(./images/img1.png);
+}
+.loc-bg2 {
+  background-image: url(./images/img2.png);
+}
+.loc-bg3 {
+  background-image: url(./images/img3.png);
+}
+.loc-bg4 {
+  background-image: url(./images/img4.png);
+}
+.locc:hover {
+  background-color: #00000040;
+}
