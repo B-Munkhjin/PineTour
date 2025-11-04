@@ -7,7 +7,7 @@
   display: flex;
   height: 100px;
   width: 1440px;
-  position: fixed;
+  position: absolute;
   justify-content: space-around;
   align-items: center;
   padding-left: 118px;
@@ -105,6 +105,7 @@
   text-align: center;
   align-items: center;
   background-image: url(./images/bgcolor.png);
+  text-shadow: 4px 5px 7px black;
 }
 
 .general {
@@ -130,6 +131,131 @@
 .loc-bg4 {
   background-image: url(./images/img4.png);
 }
-.locc:hover {
-  background-color: #00000040;
+.overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.overlay:hover {
+  background-color: #29292966;
+}
+.map {
+  display: flex;
+  background-image: url(./images/map.png);
+  height: 1022px;
+  width: 1440px;
+  flex-direction: column;
+  background-size: cover;
+}
+.headmap {
+  display: flex;
+  width: 1440px;
+  height: 204px;
+  padding-top: 120px;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.size1 {
+  font-size: 44px;
+}
+.size2 {
+  font-size: 24px;
+  opacity: 0.6;
+}
+.midmap {
+  display: flex;
+  top: 60px;
+  left: 120px;
+  justify-content: space-between;
+  width: 1200px;
+  height: 640px;
+  position: relative;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 513px;
+  height: 640px;
+  color: black;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.mid-bg1 {
+  background-color: #eee9d9;
+}
+.mid-bg2 {
+  background-color: #8bb8c1cc;
+  opacity: 80%;
+}
+.mid-bg3 {
+  background-color: #aad8d7cc;
+  opacity: 80%;
+}
+.mid-bg4 {
+  background-color: #8bc0bdcc;
+  opacity: 80%;
+}
+.mid-bg5 {
+  background-color: #97cce0cc;
+  opacity: 80%;
+}
+.ti {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: black;
+  height: 48px;
+}
+.text {
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  height: 48px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.icon {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  height: 15px;
+  width: 94px;
+  gap: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Overpass", sans-serif;
+  width: 52px;
+  height: 48px;
+  background-color: #f7f6f3;
+  border-radius: 100%;
+  font-weight: 300;
+}
+.right {
+  display: none;
+  background-image: url(./images/talbai.png);
+}
+span:hover + right {
+  display: block;
 }
