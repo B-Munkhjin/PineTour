@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.gen {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .header {
   display: flex;
   height: 100px;
@@ -47,7 +52,7 @@
   flex-direction: column;
   width: 618px;
   height: 394px;
-  position: absolute;
+  position: relative;
   top: 169px;
   left: 411px;
 }
@@ -159,13 +164,17 @@
   gap: 10px;
   align-items: center;
   flex-direction: column;
+  font-family: "Inter", sans-serif;
 }
 .size1 {
   font-size: 44px;
+  font-weight: 570;
 }
 .size2 {
   font-size: 24px;
   opacity: 0.6;
+  font-weight: 500;
+  font-style: medium;
 }
 .midmap {
   display: flex;
@@ -176,7 +185,6 @@
   height: 640px;
   position: relative;
 }
-
 .left {
   display: flex;
   flex-direction: column;
@@ -228,13 +236,13 @@
   height: 48px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
+  font-style: medium;
 }
 .icon {
   display: flex;
   font-size: 14px;
   font-weight: 400;
   line-height: 100%;
-  letter-spacing: 0%;
   height: 15px;
   width: 94px;
   gap: 12px;
@@ -253,9 +261,178 @@
   font-weight: 300;
 }
 .right {
-  display: none;
-  background-image: url(./images/talbai.png);
+  width: 647px;
+  height: 640px;
 }
-span:hover + right {
+.zurag1 {
+  display: none;
+  position: absolute;
+  top: 75px;
+  left: 922px;
+  height: 245px;
+  width: 245px;
+}
+
+.zurag2 {
+  display: none;
+  position: absolute;
+  top: -39px;
+  left: 726px;
+  height: 245px;
+  width: 245px;
+}
+
+.zurag3 {
+  display: none;
+  position: absolute;
+  top: 79px;
+  left: 591px;
+  height: 245px;
+  width: 245px;
+}
+.zurag4 {
+  display: none;
+  position: absolute;
+  top: -90px;
+  left: 555px;
+  height: 245px;
+  width: 245px;
+}
+.zurag5 {
+  display: none;
+  position: absolute;
+  top: 304px;
+  left: 713px;
+  height: 245px;
+  width: 245px;
+}
+.huree {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.huree:hover {
+  border: white solid 4px;
+}
+.huree:hover + .zurag1 {
   display: block;
+}
+.huree:hover + .zurag2 {
+  display: block;
+}
+.huree:hover + .zurag3 {
+  display: block;
+}
+.huree:hover + .zurag4 {
+  display: block;
+}
+.huree:hover + .zurag5 {
+  display: block;
+}
+.pin {
+  position: relative;
+  width: 34px;
+  height: 34px;
+}
+.pin1 {
+  top: 42px;
+  left: 279px;
+}
+.pin2 {
+  top: 154px;
+  left: 70px;
+}
+.pin3 {
+  top: 181px;
+  left: 415px;
+}
+.pin4 {
+  top: 416px;
+  left: 167px;
+}
+.price {
+  background-image: url(./images/last.png);
+  height: 1120px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+.last-header {
+  display: flex;
+  width: 1440px;
+  height: 85px;
+  top: 40px;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+.last-mid {
+  width: 1200px;
+  height: 527px;
+  display: flex;
+  gap: 24px;
+  position: relative;
+  top: 240px;
+  left: 120px;
+}
+.option1 {
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+  color: black;
+  background-color: #fafbfc;
+}
+.up {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  padding: 24px;
+  gap: 16px;
+  align-items: center;
+}
+.size3 {
+  font-size: 18px;
+  line-height: 100%;
+  height: 22px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-style: medium;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  height: 78px;
+  gap: 10px;
+}
+.size4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  vertical-align: bottom;
+}
+.size5 {
+  font-family: "Inter", "sans serif";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  vertical-align: bottom;
+  color: #919191;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
