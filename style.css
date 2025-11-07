@@ -633,3 +633,21 @@
   left: 1px;
   filter: blur(1px);
 }
+.zurh {
+  width: 36px;
+  height: 36px;
+  color: black;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/zurh.png);
+  background-size: cover;
+}
+.zurh:hover {
+  background-image: url(./images/ss.jpeg);
+  border-radius: 40px;
+  display: block;
+  height: 36px;
+  width: 36px;
+}
